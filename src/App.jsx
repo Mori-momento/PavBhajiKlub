@@ -8,7 +8,6 @@ function App() {
     <>
     <LandingPage/>  
     <Menu/>
-    <Animation/>
     </>
   )
 }

@@ -1,5 +1,4 @@
 import HeroImage from '../assets/menu/heroimage1.png';
-import logo from '../assets/menu/react.svg';
 
 const LandingPage = () => {
 return (
@@ -16,7 +15,7 @@ Copy code
 
   <nav className="fixed top-0 z-50 w-full px-6 py-4 flex items-center justify-between bg-black">
     <div className="flex items-center flex-shrink-0 mr-6">
-      <img src={logo} alt="Pav Bhaji Klub" className="h-8" />
+      <span className='font-bold text-[#f97316] text-[30px] ' >PBK</span>
     </div>
     <div className="lg:hidden">
       <button className="flex items-center px-3 py-2 text-white border rounded hover:text-orange-500 hover:border-orange-500">

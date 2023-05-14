@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = ({ image, dish_name, description, price = 420 }) => {
   return (
-    <div className="relative bg-gray-500 rounded-md shadow-md overflow-hidden w-72 h-96">
+    <div className="relative bg-gray-500 rounded-md shadow-md overflow-hidden w-72 h-96 m-4">
       <div className="relative h-full w-full overflow-hidden">
         <img
           className="absolute h-full w-full object-cover transform transition-all duration-500 hover:scale-110"

@@ -1,39 +1,27 @@
-import React from 'react';
-import Card from './Card';
+import React, { useEffect, useState } from "react";
+import Card from "./Card";
 
 const Menu = () => {
-  const menuItems = [
-    {
-      id: 1,
-      image: 'https://source.unsplash.com/featured/?food',
-      title: 'Pav Bhaji',
-      description:
-        'Our signature dish made with fresh vegetables and spices, served with buttered pav.',
-    },
-    {
-      id: 2,
-      image: 'https://source.unsplash.com/featured/?indian-food',
-      title: 'Masala Dosa',
-      description:
-        'A crispy crepe made with fermented rice and lentil batter, stuffed with spicy potato filling.',
-    },
-    {
-      id: 3,
-      image: 'https://source.unsplash.com/featured/?street-food',
-      title: 'Vada Pav',
-      description:
-        'A popular street food made with a potato fritter and served in a bread bun with spicy chutney.',
-    },
-  ];
+  const [menuData, setMenuData] = useState([]);
+
+  useEffect(() => {
+    const getMenuData = async () => {
+      const response = await fetch("menu.json");
+      const data = await response.json();
+      setMenuData(data);
+    };
+    getMenuData();
+  }, []);
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 p-8 bg-[#05050a] ">
-      {menuItems.map((item) => (
+    <div className="grid grid-cols-4 bg-black gap-4">
+      {menuData.map((item) => (
         <Card
-          key={item.id}
-          image={item.image}
-          title={item.title}
-          description={item.description}
+          key={item.dish_name}
+          image={item.image_url}
+          dish_name={item.dish_name}
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          price={item.price}
         />
       ))}
     </div>

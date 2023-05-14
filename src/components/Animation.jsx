@@ -2,20 +2,11 @@ import React from 'react';
 
 const Animation = () => {
   return (
-    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="100" cy="100" r="50" fill="#F56565" />
-      <rect x="80" y="80" width="40" height="40" fill="#ECC94B">
-        <animateTransform
-          attributeName="transform"
-          attributeType="XML"
-          type="rotate"
-          from="0 100 100"
-          to="360 100 100"
-          dur="2s"
-          repeatCount="indefinite"
-        />
-      </rect>
-    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <text x="196.5" y="250" font-size="40" font-weight="bold" fill="#da1a3a" text-anchor="middle">Pav Bhaji</text>
+<text x="196.5" y="290" font-size="40" font-weight="bold" fill="#da1a3a" text-anchor="middle">Klub</text>
+</svg>
+
   );
 };
 
