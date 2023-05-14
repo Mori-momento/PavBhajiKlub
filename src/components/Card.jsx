@@ -16,7 +16,7 @@ const Card = ({ image, dish_name, description, price = 420 }) => {
         <div className="flex items-center justify-between">
           <p className="font-medium text-white rounded-md p-2">${price}</p>
           <button className="bg-orange-500 text-white font-medium mt-4 py-2 px-4 rounded-md hover:bg-orange-600">
-            Order now
+            ADD
           </button>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import HeroImage from '../assets/menu/heroimage.png';
+import HeroImage from '../assets/menu/heroimage1.png';
 import logo from '../assets/menu/react.svg';
 
 const LandingPage = () => {
