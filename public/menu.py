@@ -2,12 +2,12 @@ import os
 import json
 import openpyxl
 
-menu_dir = "public/menu"  # replace with the actual directory path
+menu_dir = "public/menu2"  # replace with the actual directory path
 menu_data = []
 
 # iterate over every image file in the directory
 for file_name in os.listdir(menu_dir):
-    if file_name.endswith(".jpg") or file_name.endswith(".jpeg") or file_name.endswith(".png"):
+    if file_name.endswith(".jpg") or file_name.endswith(".JPG") or file_name.endswith(".jpeg") or file_name.endswith(".png"):
         # assume the file name is the dish name without the extension
         dish_name = os.path.splitext(file_name)[0]
         # construct the URL of the image file

@@ -1,19 +1,22 @@
 import HeroImage from '../assets/menu/heroimage1.png';
+import menuPdf from '../assets/menu.pdf'
 
 const LandingPage = () => {
+  
+  const openPdf = () => {
+    window.open(menuPdf, '_blank');
+  }
+
 return (
 <div className="relative bg-black w-full h-screen overflow-hidden">
 <div className="absolute w-full h-full "></div>
-
-php
-Copy code
   <img
     className="object-cover h-screen w-full absolute right-0"
     src={HeroImage}
     alt="heroImage"
   />
 
-  <nav className="fixed top-0 z-50 w-full px-6 py-4 flex items-center justify-between bg-black">
+  <nav className="fixed top-0 z-50 w-full px-6 py-4 flex items-center justify-between bg-black opacity-[55%] ">
     <div className="flex items-center flex-shrink-0 mr-6">
       <span className='font-bold text-[#f97316] text-[30px] ' >PBK</span>
     </div>
@@ -64,9 +67,12 @@ Copy code
       Our delicious Pav Bhaji is made with the finest ingredients and spices
       to create a unique flavor that will leave you wanting more.
     </p>
-    <button className="inline-block px-4 py-2 mt-4 text-white border rounded hover:text-orange-500 hover:border-orange-500">
+    <button onClick={openPdf} className="inline-block px-4 py-2 m-4 text-white border rounded hover:text-orange-500 hover:border-orange-500">
       View Menu
     </button>
+    <a href={menuPdf} download className="inline-block px-4 py-2 m-4 text-white border rounded hover:text-orange-500 hover:border-orange-500">
+      download Menu
+    </a>
   </div>
 </div>
 );

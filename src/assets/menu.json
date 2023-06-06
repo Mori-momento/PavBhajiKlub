@@ -1,0 +1,67 @@
+[
+    {
+        "dish_name": "2-12",
+        "image_url": "/menu/2-12.JPG",
+        "price": 0
+    },
+    {
+        "dish_name": "2-3 CROPPED",
+        "image_url": "/menu/2-3 CROPPED.jpg",
+        "price": 0
+    },
+    {
+        "dish_name": "2-4",
+        "image_url": "/menu/2-4.JPG",
+        "price": 0
+    },
+    {
+        "dish_name": "2-5",
+        "image_url": "/menu/2-5.JPG",
+        "price": 0
+    },
+    {
+        "dish_name": "2-6",
+        "image_url": "/menu/2-6.JPG",
+        "price": 0
+    },
+    {
+        "dish_name": "hariyali pb",
+        "image_url": "/menu/hariyali pb.png",
+        "price": 0
+    },
+    {
+        "dish_name": "IMG_20180331_120547-2",
+        "image_url": "/menu/IMG_20180331_120547-2.jpg",
+        "price": 0
+    },
+    {
+        "dish_name": "IMG_20221124_202723",
+        "image_url": "/menu/IMG_20221124_202723.jpg",
+        "price": 0
+    },
+    {
+        "dish_name": "IMG_20221124_202735",
+        "image_url": "/menu/IMG_20221124_202735.jpg",
+        "price": 0
+    },
+    {
+        "dish_name": "MUSHROOM PB 01",
+        "image_url": "/menu/MUSHROOM PB 01.jpg",
+        "price": 0
+    },
+    {
+        "dish_name": "pb 1 TEMP500 RES",
+        "image_url": "/menu/pb 1 TEMP500 RES.jpg",
+        "price": 0
+    },
+    {
+        "dish_name": "smoked pb",
+        "image_url": "/menu/smoked pb.png",
+        "price": 0
+    },
+    {
+        "dish_name": "smoked pulao(1)",
+        "image_url": "/menu/smoked pulao(1).png",
+        "price": 0
+    }
+]
