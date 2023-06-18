@@ -3,7 +3,7 @@ const Aboutus = () => {
         <div className="bg-black flex justify-center items-center w-full h-[100vh]">
             <div className="w-[80%] mx-auto px-4 sm:px-6 lg:px-8" >
 
-        <h2 className="text-5xl font-extrabold text-[#f97316] mb-8">Testimonials</h2>
+        <h2 className="text-5xl font-extrabold text-[#f97316] mb-8">About us</h2>
         <div className="flex" >
         <div className="w-2/5 rounded-[20px] mx-8 overflow-hidden h-[60vh] object-cover" >
                 <img className="object-cover" src='/placeholder(1).jpg  '/>
