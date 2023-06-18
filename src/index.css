@@ -11,3 +11,7 @@
 .custom-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+.glow{
+    text-shadow: 0 0 5px #f97316, 0 0 50px #f97316, 0 0 100px #f97316, 0 0 100px #f97316;
+}

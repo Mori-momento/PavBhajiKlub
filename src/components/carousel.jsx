@@ -11,13 +11,14 @@ const Carousel = ({ items }) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 8000,
-    autoplaySpeed: 8000,
-    cssEase: "linear"
+    fade: true,
+    autoplaySpeed: 2500,
+    speed:2500,
+    cssEase: "ease-in-out"
   };
 
   return (
-    <Slider className='w-[600px] h-[600px] rounded-lg overflow-hidden m-8 ' {...settings}>
+    <Slider className='w-[600px] h-[600px] rounded-lg overflow-hidden m-8  ' {...settings}>
       {items.map((item, index) => (
         <div className='w-[600px] h-[600px] object-cover overflow-hidden' key={index}>
           <img src={item.image_url} alt={item.dish_name} className="h-full w-full object-cover" />
