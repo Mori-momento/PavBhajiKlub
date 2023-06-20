@@ -18,7 +18,7 @@ const Carousel = ({ items }) => {
   };
 
   return (
-    <Slider className='w-[600px] h-[600px] rounded-lg overflow-hidden m-8  ' {...settings}>
+    <Slider className='w-[600px] h-[500px] rounded-lg overflow-hidden m-8  ' {...settings}>
       {items.map((item, index) => (
         <div className='w-[600px] h-[600px] object-cover overflow-hidden' key={index}>
           <img src={item.image_url} alt={item.dish_name} className="h-full w-full object-cover" />

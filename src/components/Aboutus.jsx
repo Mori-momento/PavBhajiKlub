@@ -1,10 +1,10 @@
 const Aboutus = () => {
     return (
-        <div className="bg-black flex justify-center items-center w-full h-[100vh]">
-            <div className="w-1/4 rounded-[20px] mx-8 overflow-hidden h-[60vh] object-cover" >
+        <div className="bg-black flex flex-col flex-wrap justify-center items-center w-full h-[100vh]">
+            <div className="w-1/4 rounded-[20px] mx-8 overflow-hidden h-[60vh] object-cover flex-col" >
                 <img className="object-cover" src='/placeholder(1).jpg  '/>
             </div>
-            <div className="w-2/5" >
+            <div className="w-2/5 flex-col" >
                 <p className="text-xl" >
                     Pav Bhaji Klub, a culinary haven where passion and flavors unite to create an extraordinary dining experience. Founded by the visionary food enthusiast, <span className="glow font-semibold text-orange-500" >Mr. Akhilesh Vyas</span> , our restaurant is a testament to his unwavering commitment to reinventing the way we savor the beloved dish of pav bhaji.
 
@@ -20,3 +20,6 @@ const Aboutus = () => {
 }
 
 export default Aboutus;
+
+  
+  

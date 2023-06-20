@@ -25,13 +25,13 @@ const TestimonialSection = () => {
   ];
 
   return (
-    <div className="bg-black h-[100vh] flex items-center py-10">
+    <div className="bg-black mh-[100vh] mw-480px flex flex-wrap items-center py-10">
       <div className="w-[80%] mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-extrabold text-[#f97316] mb-8">Testimonials</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 text-white gap-8">
           {testimonials.map((testimonial) => (
             <div key={testimonial.id} className="bg-[#843600] p-6 rounded shadow">
-              <div className="flex items-center mb-4">
+              <div className="flex 1 1 480px items-center mb-4">
                 <div className="w-20 h-20 bg-gray-300 rounded-full mr-4"></div>
                 <p className=" text-lg font-medium">{testimonial.name}</p>
               </div>
