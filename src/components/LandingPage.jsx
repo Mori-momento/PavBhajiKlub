@@ -12,7 +12,7 @@ const LandingPage = () => {
   }
 
 return (
-<div className="relative bg-black w-full h-screen overflow-hidden">
+<div className="relative bg-black w-full h-screen sml:overflow-y-scroll">
 <div className="absolute w-full h-full"></div>
   {/* <img
     className="object-cover h-screen w-full absolute right-0"
@@ -21,7 +21,7 @@ return (
   /> */}
 
   <nav className="fixed top-0 z-50 w-full px-6 py-4 flex items-center justify-between bg-black ">
-    <div className="flex items-center flex-shrink-0 mr-6">
+    <div className="flex items-center shrink-0 mr-6">
       <span className='font-bold text-[#f97316] text-[30px] ' >PBK</span>
     </div>
     <div className="lg:hidden">
@@ -39,7 +39,7 @@ return (
         </svg>
       </button>
     </div>
-    <div className="hidden lg:flex lg:items-center">
+    <div className="hidden lg:flex items-center">
       <a
         href="#menu"
         className="block px-4 py-2 text-white hover:text-orange-500"
@@ -63,23 +63,23 @@ return (
       </button>
     </div>
   </nav>
-  <div className="absolute flex sml:flex-col justify-between top-[30%] md:top-[20%] w-full h-full left-0 p-6 bg-opacity-75">
-  <div className='w-1/2 sml:w-[80%] '>
+  <div className="absolute flex md:shrink sml:flex-col justify-between top-[10%]  md:top-[10%] w-full h-full left-0 p-6 bg-opacity-75">
+  <div className='w-1/2 sml:w-full  px-2'>
   <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
       Welcome to <span className='text-orange-500' >Pav Bhaji Klub</span>
     </h1>
-    <p className='text-xl font-semibold text-white my-8 ' > Where Innovation Meets Flavor!</p>
-    <p className="text-xl my-8 text-white">
+    <p className='text-xl font-semibold text-white my-8 text-justify' > Where Innovation Meets Flavor!</p>
+    <p className="text-xl my-8 text-white text-justify">
     Pav Bhaji Klub, a culinary destination where innovation and flavor collide to create an extraordinary dining experience. Discover a world of tantalizing tastes and vibrant creations that will take your palate on a thrilling adventure. With our unique blend of traditional flavors and creative twists, we invite you to embark on a gastronomic journey that celebrates the art of pav bhaji like never before.
     </p>
-    <button onClick={openPdf} className="inline-block px-4 py-2 m-4 text-white border rounded hover:text-orange-500 hover:border-orange-500">
+    <button onClick={openPdf} className="inline-block px-4 py-2 m-4 text-white border rounded hover:text-orange-500 hover:border-orange-500 ">
       View Menu
     </button>
-    <a href={menuPdf} download className="inline-block px-4 py-2 m-4 text-white border rounded hover:text-orange-500 hover:border-orange-500">
-      download Menu
+    <a href={menuPdf} download className="inline-block px-4 py-2 m-4 w-40  text-white border rounded hover:text-orange-500 hover:border-orange-500">
+      Download Menu
     </a>
   </div>
-  <div className='relative top-[-10%]' >
+  <div className='relative top-[-10%] sml:top-[5%] flex shrink' >
   <Carousel items={carouselItems}/>
   </div>
 
