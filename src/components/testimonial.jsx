@@ -36,6 +36,7 @@ const TestimonialSection = () => {
                 <p className=" text-lg font-medium">{testimonial.name}</p>
               </div>
               <p className=" text-lg mb-4">{testimonial.content}</p>
+              {/* <FontAwesomeIcon icon="fa-sharp fa-light fa-gauge" /> */}
             </div>
           ))}
         </div>
