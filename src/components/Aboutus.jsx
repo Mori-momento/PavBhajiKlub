@@ -14,7 +14,7 @@ const Aboutus = () => {
                 <br/>
                 <br/>
 
-                    At Pav Bhaji Klub, our mission is to elevate the art of pav bhaji by infusing it with innovation, quality, and a dash of creativity. We believe that food is an experience, and every dish we serve is crafted with utmost care and attention to detail. Mr. Vyas&apos;s vision is to captivate the senses of our guests, pushing the boundaries of flavors and presenting pav bhaji in a way that is both traditional and refreshingly modern.
+                    At Pav Bhaji Klub, our mission is to elevate the art of pav bhaji by infusing it with innovation, quality, and a dash of creativity. We believe that food is an experience, and every dish we serve is crafted with utmost care and attention to detail. Mr. Sharma's vision is to captivate the senses of our guests, pushing the boundaries of flavors and presenting pav bhaji in a way that is both traditional and refreshingly modern.
                 </p>
             </div>
         </div>
