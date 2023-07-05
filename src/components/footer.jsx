@@ -1,18 +1,20 @@
 const Footer = () => {
   return (
     <div className="  h-full px-[15%] bg-black w-full flex flex-col justify-center p-4 ">
-      <div className="flex h-full w-[80%] rounded-lg overflow-scroll sml:flex-col w-full">
-        <div className="text-white text-[20px] w-[70%] px-4 sml:w-full" >
+      <div className="flex  h-full w-[80%] rounded-lg overflow-scroll sml:flex flex-col w-full">
+        <div className="text-white text-[20px] flex-row w-[70%] px-4 sml:w-full sml:order-1 mb-8" >
           Shop no. 7, Sukan apartment,<br />
           Opp Rajubhai Dhoklawala,<br />
           Mahatma Gandhi Rd,<br />
           Patel Nagar, Kandivali West,<br />
           Mumbai-400067
-          <p className="text-orange-500 my-8 text-[18px] glow">
-          Experience the magic of Pav Bhaji Klub firsthand by stepping into our inviting restaurant, where tantalizing aromas and vibrant flavors await you.
+        </div>
+        <div className="text-white text-[20px] w-[30%] px-4 sml:w-full sml:order-3 mb-4" >
+          <p className="text-orange-500 my-8 text-[18px] glow absolute w-[40%] top-[300%] left-[40%] sml:relative sml:w-full sml:left-[0%]">
+            Experience the magic of Pav Bhaji Klub firsthand by stepping into our inviting restaurant, where tantalizing aromas and vibrant flavors await you.
           </p>
         </div>
-        <iframe className="w-[50%] h-[380px] rounded-lg sml:flex flex-col w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.765454817628!2d72.8408021753618!3d19.205443982025972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7a2a3e9c465%3A0x2d6bc41f0a3a94e!2zUGF2IEJoYWppIEtsdWIgLSBLYW5kaXZhbGkgV2VzdCwg4KSq4KS-4KS1IOCkreCkvuCknOClgCDgpJXgpY3gpLLgpKwgLSDgpJXgpL7gpILgpKbgpL_gpLXgpLLgpYAg4KSq4KSa4KWN4KSa4KWA4KSu!5e0!3m2!1sen!2sin!4v1686923360600!5m2!1sen!2sin" allowFullscreen="true" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        <iframe className="w-[50%] h-[380px] rounded-lg sml:flex shrink flex-col w-full sml:order-2 mb-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.765454817628!2d72.8408021753618!3d19.205443982025972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7a2a3e9c465%3A0x2d6bc41f0a3a94e!2zUGF2IEJoYWppIEtsdWIgLSBLYW5kaXZhbGkgV2VzdCwg4KSq4KS-4KS1IOCkreCkvuCknOClgCDgpJXgpY3gpLLgpKwgLSDgpJXgpL7gpILgpKbgpL_gpLXgpLLgpYAg4KSq4KSa4KWN4KSa4KWA4KSu!5e0!3m2!1sen!2sin!4v1686923360600!5m2!1sen!2sin" allowFullscreen="true" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div className='flex flex-wrap w-[480px] mx-auto my-8 justify-around items-center sml:w-full'>
         <a href=''>
