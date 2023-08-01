@@ -47,11 +47,10 @@
 
 // export default Footer;
 
-import React from "react";
 export default function Footer() {
   return (
-    <div className="flex flex-wrap w-full pb-4 h-[600px] sml:h-[750px] bg-black px-10">
-      <div className="flex h-[450px] w-full p-6 grid grid-cols-2 gap-2 relative top-10 sml:grid-cols-1 sml:top-0">
+    <div id="contact" className="flex flex-col justify-around items-center flex-wrap w-full h-screen bg-black px-10 sml:px-2">
+      <div className="flex w-full h-[500px] sml:h-[70vh] p-6 grid grid-cols-2 gap-2 relative top-10 sml:grid-cols-1 sml:top-0">
         <div className="text-white h-full w-1/2 mx-auto  sml:w-full text-black sml:order-1 sml:h-[170px]">
           <p className="text-[19px] text-justify ">
             Shop no. 7, Sukan apartment,

@@ -12,7 +12,7 @@ function App() {
   const carouselItems = menu;
 
   return (
-    < div className='w-full text-white ' >
+    < div className='w-full text-white bg-black sml:tracking-tighter	 ' >
     <LandingPage/>
     <Aboutus/>  
     {/* <Carousel items={carouselItems} /> */}
